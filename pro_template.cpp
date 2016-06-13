@@ -12,8 +12,13 @@ using namespace std;
 int main(){
     
     const double PI= 3.14159265359;
+    
+    int largestNum = (5>2) ? 5 : 2;
+ //variable = (cond) ? true : false;    
+
 
     cout << (int)PI; //cast
+
 
 
 }
