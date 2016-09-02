@@ -5,41 +5,41 @@ using namespace std;
 
 int main(){
 cout << fixed << setprecision(1);
-int n1,n2,n3= 0;
+int x,y,z= 0;
 
-cin >> n1>>n2>>n3;
+cin >> x>>y>>z;
 
-if (n1>n2&&n1>n3&&n2>n3){
-    cout <<n3<<endl<<n2<<endl<<n1<<endl;
+if (x>y&&x>z&&y>z){
+    cout <<z<<endl<<y<<endl<<x<<endl;
 }
 
-if (n2>n1&&n2>n3&&n1>n3){
-    cout <<n3<<endl<<n1<<endl<<n2<<endl;
+if (y>x&&y>z&&x>z){
+    cout <<z<<endl<<x<<endl<<y<<endl;
 }
 
-if (n3>n2&&n3>n1&&n2>n1){
-    cout <<n1<<endl<<n2<<endl<<n3<<endl;
-}
-
-
-
-if (n1>n2&&n1>n3&&n3>n2){
-    cout <<n2<<endl<<n3<<endl<<n1<<endl;
-}
-
-if (n2>n1&&n2>n3&&n3>n1){
-    cout <<n1<<endl<<n3<<endl<<n2<<endl;
-}
-
-if (n3>n2&&n3>n1&&n1>n2){
-    cout <<n2<<endl<<n1<<endl<<n3<<endl;
+if (z>y&&z>x&&y>x){
+    cout <<x<<endl<<y<<endl<<z<<endl;
 }
 
 
 
+if (x>y&&x>z&&z>y){
+    cout <<y<<endl<<z<<endl<<x<<endl;
+}
+
+if (y>x&&y>z&&z>x){
+    cout <<x<<endl<<z<<endl<<y<<endl;
+}
+
+if (z>y&&z>x&&x>y){
+    cout <<y<<endl<<x<<endl<<z<<endl;
+}
 
 
 
-cout <<endl<<n1<<endl<<n2<<endl<<n3<<endl;
+
+
+
+cout <<endl<<x<<endl<<y<<endl<<z<<endl;
 
 }
