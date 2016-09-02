@@ -22,3 +22,13 @@ int fibonacci(int n){
     }
     cout<<x1+y1;
 }
+
+int fibonacci(int n){
+    long x,y,x1,y1;n++;g
+    x=0;y=1;
+    if(n>1){
+        
+    }
+    fibonacci(n);
+    cout<<x1+y1;
+} 
